@@ -5,20 +5,19 @@ body{
     background-color: rgb(221, 170, 178);
 }
 
+
+/* estilizando o cabeçalho da minha página */
 header{
     padding: 25px;
     text-align: center;
     background: rgb(255, 192, 234);
-    /* background-image: url("https://i.pinimg.com/564x/0e/2a/6a/0e2a6a04dbeed7d8aa0240e4cebba2be.jpg"); */
-    /* color: white; */
+    background-image: url("IMG/makes.jpg");
     /* background-image: url("IMG/makes.jpg"); */
-    /* box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); */
-
 }
 
-/* agora estamos colocando o o section e o aside  */
-/* um do lado do outro, ao inves de um em cima  */
-/* do outro */
+/* ajustando a parte principal da minha página
+para as divs ficarem uma ao lado da outra e
+centralizadas */
 main{
     display:flex;
     background: pink;
@@ -26,21 +25,13 @@ main{
     justify-content: space-evenly;
 }
 
+
+/* ajustando o espaço entre os elementos da lista */
 .lista{
     padding: 20px;
 }
 
-
-
-
-/* colocando o titulo e o conteudo do lado da segunda imagem */
-/* img{
-    width:100%;
-} */
-
-
-
-/* meus testes, estilizando a ultima divisao da pagina */
+/*estilizando a última divisao da página */
 footer{
     background: rgb(249, 113, 192);
     padding: 16px 0;
@@ -56,11 +47,33 @@ footer{
     padding: 0 24%;
 }
 
+/* estilizando as imagens da minha página
+colocando sombras e arredondando as margens */
 .imagem{
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); 
+    border-radius: 1%;
 
 }
 
+/* colocando a imagem do meu cantor favorito e o link 
+para minha musica favorita um embaixo do outro */
 .artistas.favoritos{
     display: block;
+}
+
+/* retirando os sublinhados dos links */
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    text-decoration: underline;
 }
