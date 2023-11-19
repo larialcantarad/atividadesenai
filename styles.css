@@ -1,0 +1,66 @@
+/* seletor {parametro: valor} */
+body{
+    font-family: Arial;
+    /* padding: 20px; */
+    background-color: rgb(221, 170, 178);
+}
+
+header{
+    padding: 25px;
+    text-align: center;
+    background: rgb(255, 192, 234);
+    /* background-image: url("https://i.pinimg.com/564x/0e/2a/6a/0e2a6a04dbeed7d8aa0240e4cebba2be.jpg"); */
+    /* color: white; */
+    /* background-image: url("IMG/makes.jpg"); */
+    /* box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); */
+
+}
+
+/* agora estamos colocando o o section e o aside  */
+/* um do lado do outro, ao inves de um em cima  */
+/* do outro */
+main{
+    display:flex;
+    background: pink;
+    text-align: center; 
+    justify-content: space-evenly;
+}
+
+.lista{
+    padding: 20px;
+}
+
+
+
+
+/* colocando o titulo e o conteudo do lado da segunda imagem */
+/* img{
+    width:100%;
+} */
+
+
+
+/* meus testes, estilizando a ultima divisao da pagina */
+footer{
+    background: rgb(249, 113, 192);
+    padding: 16px 0;
+    margin-top: 16px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    /* background-image: url('https://images.tcdn.com.br/img/img_prod/1102995/180_papel_de_parede_margaridas_bege_p_213_1_225bb1ca3221f5c6232a21297abc559f.jpg'); */
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 24%;
+}
+
+.imagem{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0
+
+}
+
+.artistas.favoritos{
+    display: block;
+}
